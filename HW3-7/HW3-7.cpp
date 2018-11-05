@@ -13,21 +13,16 @@ int addArray(int a[], int length){
 		sum = a[index++] + sum;
 
 	return sum;
-
 }
 
 
 
-
-
-
 int main() {
-	int a[4] = {10, 20, 30, 40};
+	int a[4] = {60, 20, 30, 40}; //배열을 오른쪽과 같이 지정해줍니다.
 	int length = 4;
 
 
-	printf("sum is %d\n", addArray(a, 4));
+	printf("sum is %d\n", addArray(a,length));
 
 		return 0;
-
 }
