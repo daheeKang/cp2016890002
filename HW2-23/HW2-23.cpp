@@ -1,7 +1,19 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 int main(){
 	//23.***** *
 	//*** ***
 	//* *****
 
-	//¸¦ Ãâ·ÂÇÏ½Ã¿À(¹Ýº¹¹® ½á¼­!)
+	//ë¥¼ ì¶œë ¥í•˜ì‹œì˜¤(ë°˜ë³µë¬¸ ì¨ì„œ!)
+
+	int a;
+	int b;
+
+	for (a=5; a>=0; a-=2){
+		for (b=0; b<6; b++){
+			if (a==b) printf (" *");
+			else printf ("*");
+		}
+		printf ("\n");
+	}
+}
