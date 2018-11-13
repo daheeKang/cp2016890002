@@ -101,6 +101,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20181106 SWAP", "20181106 S
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20181106포인터와 배열", "20181106포인터와 배열\20181106포인터와 배열.vcxproj", "{B765B45B-FFA4-460A-ADF2-C61BAF0198D1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20181113  array pointer", "20181113  array pointer\20181113  array pointer.vcxproj", "{76BAFB6A-F165-404F-8F3F-B28CEC94B4F0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20181113 selection soarting", "20181113 selection soarting\20181113 selection soarting.vcxproj", "{538E4007-963D-4197-AD67-BEB221504ECA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -307,6 +311,14 @@ Global
 		{B765B45B-FFA4-460A-ADF2-C61BAF0198D1}.Debug|Win32.Build.0 = Debug|Win32
 		{B765B45B-FFA4-460A-ADF2-C61BAF0198D1}.Release|Win32.ActiveCfg = Release|Win32
 		{B765B45B-FFA4-460A-ADF2-C61BAF0198D1}.Release|Win32.Build.0 = Release|Win32
+		{76BAFB6A-F165-404F-8F3F-B28CEC94B4F0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{76BAFB6A-F165-404F-8F3F-B28CEC94B4F0}.Debug|Win32.Build.0 = Debug|Win32
+		{76BAFB6A-F165-404F-8F3F-B28CEC94B4F0}.Release|Win32.ActiveCfg = Release|Win32
+		{76BAFB6A-F165-404F-8F3F-B28CEC94B4F0}.Release|Win32.Build.0 = Release|Win32
+		{538E4007-963D-4197-AD67-BEB221504ECA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{538E4007-963D-4197-AD67-BEB221504ECA}.Debug|Win32.Build.0 = Debug|Win32
+		{538E4007-963D-4197-AD67-BEB221504ECA}.Release|Win32.ActiveCfg = Release|Win32
+		{538E4007-963D-4197-AD67-BEB221504ECA}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

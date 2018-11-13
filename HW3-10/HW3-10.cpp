@@ -34,7 +34,7 @@ int main(){
 }
 
 
-//포인터 배운 후 작성한 답안입니다.
+//포인터 배운 후 작성중인 답안입니다.
 
 //void swap(int* ptr1, int* ptr2, int a[], int length){     
 //	int temp;	
