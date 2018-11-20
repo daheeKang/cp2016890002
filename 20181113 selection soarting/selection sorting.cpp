@@ -23,7 +23,7 @@ void printArray (int* arr, int len){
 int findMinIndex(int* arr, int length){
 	int minIndex=0;
 
-		for (int count=1; count<length; count++){
+	for (int count=1; count<length; count++){
 		if (arr[minIndex] > arr[count]) minIndex=count;
 	}
 	return minIndex;
@@ -62,21 +62,31 @@ int findMin(int* arr, int length){
 //출력 : 없음
 //부수효과 : 배열이 정렬됨
 void selectSort(int* arr, int length){ //find min에 변수 하나 더 넣어야함. start 포인트가 다르므로. 
-	int min=arr[0];
-	for (int count=1; count<length; count++){
-		if (min > arr[count]) 
-			void swapElement(int* arr, int i, int j );
-			min = arr[count];
+	int i=0, j;
+	int min=arr[i];
+	int minIndex=i;
+
+	for( i=0; i<length-1; i++){
+		for (j=i+1; j<length; j++){
+			if (arr[j]<min) {
+				min = arr[j];
+				minIndex=j;
+			}
+		}
+		if(i!=minIndex)swapElement(arr, j, i);
+
 	}
+	printArray(arr,5);
 }
+
 
 
 int main() {
 
 	int a[] = {30, 35, 27, 15, 40 };	
-
-	printf("minium value of the array is %d\n", findMin(a, 5));
+	selectSort(a,5);
+	return 0;
+	/*printf("minium value of the array is %d\n", findMin(a, 5));
 	printf("The index of minium value of the array is %d\n", findMinIndex(a, 5));
-	swapElement(a, 0, 3);
-	printArray(a,5);
+	swapElement(a, 0, 3);*/
 }
