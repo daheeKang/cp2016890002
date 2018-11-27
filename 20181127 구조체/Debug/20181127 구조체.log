@@ -1,0 +1,12 @@
+﻿빌드 시작: 2018-11-27 오후 4:50:14
+     1>2 노드의 "C:\Users\angel\Desktop\2016890002강다희\20181127 구조체\20181127 구조체.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt "구조체.cpp"
+         구조체.cpp
+     1>c:\users\angel\desktop\2016890002강다희\20181127 구조체\구조체.cpp(20): error C2371: 'Complex' : 재정의. 기본 형식이 다릅니다.
+                 c:\users\angel\desktop\2016890002강다희\20181127 구조체\구조체.cpp(17) : 'Complex' 선언을 참조하십시오.
+     1>"C:\Users\angel\Desktop\2016890002강다희\20181127 구조체\20181127 구조체.vcxproj" 프로젝트를 빌드했습니다(Build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:00.27
