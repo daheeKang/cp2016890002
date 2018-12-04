@@ -41,7 +41,7 @@ void printComplex(Complex* ptr){ //모든 경우, 구조체의 포인터를 매개변수로 전달�
 //입력 : 복소수 (포인터)
 //출력 : 없음
 //부수효과 : 입력된 복소수가 켤레복소수로 변환됨
-void convertToConjugate(Cpmplex* ptr){
+void convertToConjugate(Complex* ptr){
 }
 	//void가 아니라 complex로
 //함수 : returnConjugate()
@@ -51,7 +51,7 @@ void convertToConjugate(Cpmplex* ptr){
 
 Complex returnConjugate(Complex* ptr){
 	Complex temp;
-	temp,real = ptr -> real; temp.imag = -1*ptr -> imag;
+	temp.real = ptr -> real; temp.imag = -1*ptr -> imag;
 	return &temp;
 
 }
