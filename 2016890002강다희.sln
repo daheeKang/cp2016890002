@@ -117,6 +117,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20181204 수업", "20181204
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20181204 연결리스트", "20181204 연결리스트\20181204 연결리스트.vcxproj", "{2802220E-143F-4EC6-8BEE-B6EBC843AD0D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20181211 연결리스트", "20181211 연결리스트\20181211 연결리스트.vcxproj", "{8DF5C5FF-3B46-4B7B-952C-0A4DB766C4F2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20181211 linkedlist", "20181211 linkedlist\20181211 linkedlist.vcxproj", "{B0DE3D31-B6D2-4579-BE6F-186C0F19BB74}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -355,6 +359,14 @@ Global
 		{2802220E-143F-4EC6-8BEE-B6EBC843AD0D}.Debug|Win32.Build.0 = Debug|Win32
 		{2802220E-143F-4EC6-8BEE-B6EBC843AD0D}.Release|Win32.ActiveCfg = Release|Win32
 		{2802220E-143F-4EC6-8BEE-B6EBC843AD0D}.Release|Win32.Build.0 = Release|Win32
+		{8DF5C5FF-3B46-4B7B-952C-0A4DB766C4F2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8DF5C5FF-3B46-4B7B-952C-0A4DB766C4F2}.Debug|Win32.Build.0 = Debug|Win32
+		{8DF5C5FF-3B46-4B7B-952C-0A4DB766C4F2}.Release|Win32.ActiveCfg = Release|Win32
+		{8DF5C5FF-3B46-4B7B-952C-0A4DB766C4F2}.Release|Win32.Build.0 = Release|Win32
+		{B0DE3D31-B6D2-4579-BE6F-186C0F19BB74}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B0DE3D31-B6D2-4579-BE6F-186C0F19BB74}.Debug|Win32.Build.0 = Debug|Win32
+		{B0DE3D31-B6D2-4579-BE6F-186C0F19BB74}.Release|Win32.ActiveCfg = Release|Win32
+		{B0DE3D31-B6D2-4579-BE6F-186C0F19BB74}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

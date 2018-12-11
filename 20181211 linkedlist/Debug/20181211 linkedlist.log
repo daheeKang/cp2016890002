@@ -1,0 +1,16 @@
+﻿빌드 시작: 2018-12-11 오후 4:33:49
+     1>2 노드의 "C:\Users\angel\Desktop\2016890002강다희\20181211 linkedlist\20181211 linkedlist.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt "linked list.cpp"
+         linked list.cpp
+     1>c:\users\angel\desktop\2016890002강다희\20181211 linkedlist\linked list.cpp(93): error C2084: 'Node *createNode(int)' 함수에 이미 본문이 있습니다.
+                 c:\users\angel\desktop\2016890002강다희\20181211 linkedlist\linked list.cpp(31) : 'createNode'의 이전 정의를 참조하십시오.
+     1>c:\users\angel\desktop\2016890002강다희\20181211 linkedlist\linked list.cpp(126): error C3861: 'createNode': 식별자를 찾을 수 없습니다.
+     1>c:\users\angel\desktop\2016890002강다희\20181211 linkedlist\linked list.cpp(127): error C3861: 'createNode': 식별자를 찾을 수 없습니다.
+     1>c:\users\angel\desktop\2016890002강다희\20181211 linkedlist\linked list.cpp(128): error C3861: 'createNode': 식별자를 찾을 수 없습니다.
+     1>c:\users\angel\desktop\2016890002강다희\20181211 linkedlist\linked list.cpp(129): error C3861: 'createNode': 식별자를 찾을 수 없습니다.
+     1>"C:\Users\angel\Desktop\2016890002강다희\20181211 linkedlist\20181211 linkedlist.vcxproj" 프로젝트를 빌드했습니다(Build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:00.73
